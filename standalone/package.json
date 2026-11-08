@@ -1,17 +1,1 @@
-{
-  "name": "noche-eterna",
-  "private": true,
-  "version": "1.0.0",
-  "type": "module",
-  "description": "Noche Eterna — juego web tipo BiteFight (vampiros vs hombres lobo). Servidor independiente para Render con base de datos Postgres en Neon.",
-  "scripts": {
-    "start": "node server.js",
-    "build": "node -e \"console.log('Sin paso de build: el cliente es estatico en public/')\""
-  },
-  "engines": {
-    "node": ">=20"
-  },
-  "dependencies": {
-    "pg": "^8.13.1"
-  }
-}
+{"dependencies":{"pg":"^8.13.1"},"description":"Noche Eterna — juego web tipo BiteFight (vampiros vs hombres lobo). Servidor independiente para Render con base de datos Postgres en Neon.","engines":{"node":">=20"},"name":"noche-eterna","private":true,"scripts":{"build":"node -e \"console.log('Sin paso de build: el cliente es estatico en public/')\"","start":"node server.js"},"type":"module","version":"1.0.0"}

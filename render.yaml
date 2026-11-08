@@ -16,6 +16,9 @@ services:
     envVars:
       - key: NODE_ENV
         value: production
+      # Pega aquí la cadena POOLED de Neon (la que trae "-pooler" en el host).
+      # Nunca subas el valor real a GitHub: configúralo a mano en el panel
+      # de Render (Environment) o déjalo como sync: false para capturarlo ahí.
       - key: DATABASE_URL
         sync: false
       - key: SESSION_SECRET
