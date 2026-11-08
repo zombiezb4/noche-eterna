@@ -1,0 +1,30 @@
+# Noche Eterna — .gitignore
+# Secretos y entorno local (la DATABASE_URL real SOLO va en el panel de Render)
+.env
+.env.*
+!.env.example
+standalone/.env
+
+# Bases de datos locales de la versión de Muse (el progreso real va en Neon)
+app.db
+app.db-shm
+app.db-wal
+*.db
+*.sqlite
+*.sqlite3
+
+# Dependencias y cachés
+node_modules/
+standalone/node_modules/
+.bun-cache/
+
+# Salidas de build y auditorías locales
+.space-build/
+.space-build-cvm/
+client/dist/
+client/dist-cvm/
+audits/
+
+# Sistema y editores
+.DS_Store
+*.log
